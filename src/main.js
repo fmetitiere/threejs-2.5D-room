@@ -1,8 +1,8 @@
 import "./style.css";
 import * as THREE from "three";
-import { floor } from "../src/objects";
-import { ambientLight, directionalLight } from "../src/lights";
-import { sizes, camera } from "../src/camera";
+import { floor } from "./components/objects";
+import { ambientLight, directionalLight } from "./components/lights";
+import { sizes, camera } from "./components/camera";
 
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import * as dat from "dat.gui";
